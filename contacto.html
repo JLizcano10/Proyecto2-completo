@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/png" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Proyecto 2</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="dieta.html">Dieta</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Formulario de contacto</h2>
+      <form action="">
+        <div>
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="name"
+            placeholder="Ingresa tu nombre aquí"
+          />
+        </div>
+        <div>
+          <label for="last">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="last"
+            placeholder="Ingresa tus apellidos aquí"
+          />
+        </div>
+        <div>
+          <label for="mail">email:</label>
+          <input
+            type="email"
+            name="correo"
+            id="mail"
+            placeholder="Correo electrónico"
+          />
+        </div>
+        <div>
+          <label for="age">Edad:</label>
+          <input type="number" name="edad" id="age" placeholder="Tu edad" />
+        </div>
+        <div>
+          <label for="gen">Género:</label>
+          <select name="genero" id="gen">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        <div>
+          <label for="motive">Motivo de contacto:</label>
+          <textarea
+            name="motivo"
+            id="motive"
+            cols="30"
+            rows="10"
+            placeholder="Ingresa tu mensaje aquí"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </form>
+    </main>
+    <footer>
+      <p>Proyecto 2 - JL &copy; 2023; <a href="#top">Ir al inicio</a></p>
+    </footer>
+  </body>
+</html>

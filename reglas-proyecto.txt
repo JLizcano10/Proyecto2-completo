@@ -1,0 +1,14 @@
+1-x.Crear un index.html con la estructura básica. 
+2-x.La web debe tener un favicon. 
+3-x.La web tendrá un encabezado con nombre de la web, un menú, contenido principal con artículos y un pie de página. 
+4-x.Cada artículo tendrá, un título, una fecha y una pequeña descripción. 
+5-x.En la descripción debe haber palabras en negrita y otras en cursiva. 
+6-x.El menú será una lista desordenada con enlaces vacíos. 
+7-x.Cada artículo tendrá una imagen de 120px. 
+8-x.Crear una página nueva llamada multimedia y enlazarla en el menú 
+9-x.Ahí (En numeral 8) cargar un video nativo, un audio nativo y un video de YouTube. 
+10-x.En el pie de página de la página principal poner un ancla arriba. 
+11-x.Crear una página con una tabla que se llame dieta. 
+12-x.La dieta debe ir de lunes a viernes y contar con 5 comidas diarias 
+13-.Crear una página de contacto. 
+14-.Crear un formulario con campo nombre, apellidos, email, edad, género y motivo de contacto. 
